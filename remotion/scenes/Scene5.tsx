@@ -147,7 +147,7 @@ export const Scene5: React.FC = () => {
             fontStyle: "italic",
           }}
         >
-          "Faith without works is dead."
+          &ldquo;Faith without works is dead.&rdquo;
         </div>
         <div
           style={{
@@ -176,7 +176,7 @@ export const Scene5: React.FC = () => {
           zIndex: 2,
         }}
       >
-        The path doesn't appear before you walk it. Every step of faith reveals the next one.
+        The path doesn&apos;t appear before you walk it. Every step of faith reveals the next one.
       </div>
 
       {/* Spacer */}

@@ -157,7 +157,7 @@ export const Scene2: React.FC = () => {
           fontStyle: "italic",
         }}
       >
-        "Trust in action, sustained over time."
+        &ldquo;Trust in action, sustained over time.&rdquo;
       </div>
     </Background>
   );

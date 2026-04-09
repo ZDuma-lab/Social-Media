@@ -86,7 +86,7 @@ export const Scene4: React.FC = () => {
         />
 
         {/* Bars */}
-        {BARS.map((bar, idx) => {
+        {BARS.map((bar) => {
           const s = spr(frame, fps, bar.delay);
           const barH = interpolate(s, [0, 1], [0, bar.maxH]);
           const endFrame = bar.delay + 40;
@@ -178,7 +178,7 @@ export const Scene4: React.FC = () => {
           paddingBottom: 8,
         }}
       >
-        "Each step of faith is an investment in the next."
+        &ldquo;Each step of faith is an investment in the next.&rdquo;
       </div>
     </Background>
   );

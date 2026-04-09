@@ -53,7 +53,7 @@ export const Scene3: React.FC = () => {
 
       {/* Subtitle */}
       <div style={{ ...slideUp(subS, 40), marginTop: 24, fontSize: 36, fontWeight: 400, color: COLORS.muted, lineHeight: 1.5, textAlign: "center" as const }}>
-        Both ask you to believe in an outcome you can't see yet.
+        Both ask you to believe in an outcome you can&apos;t see yet.
       </div>
 
       {/* Split panels */}
@@ -83,7 +83,7 @@ export const Scene3: React.FC = () => {
             FEAR
           </div>
           <div style={{ ...slideUp(fearDescS, 20), fontSize: 30, fontWeight: 400, color: "rgba(255,255,255,0.65)", textAlign: "center" as const, lineHeight: 1.5 }}>
-            "Something bad is coming."
+            &ldquo;Something bad is coming.&rdquo;
           </div>
           <div style={{ ...slideUp(fearDescS, 30), marginTop: 8, fontSize: 28, color: "rgba(239,68,68,0.8)", textAlign: "center" as const, lineHeight: 1.5 }}>
             Focus on worst-case outcomes
@@ -115,7 +115,7 @@ export const Scene3: React.FC = () => {
             FAITH
           </div>
           <div style={{ ...slideUp(faithDescS, 20), fontSize: 30, fontWeight: 400, color: "rgba(255,255,255,0.65)", textAlign: "center" as const, lineHeight: 1.5 }}>
-            "Something good is possible."
+            &ldquo;Something good is possible.&rdquo;
           </div>
           <div style={{ ...slideUp(faithDescS, 30), marginTop: 8, fontSize: 28, color: COLORS.green, textAlign: "center" as const, lineHeight: 1.5 }}>
             Focus on best-case potential

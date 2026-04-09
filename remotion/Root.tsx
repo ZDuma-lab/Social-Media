@@ -1,5 +1,5 @@
 import React from "react";
-import { Composition } from "remotion";
+import { Composition, registerRoot } from "remotion";
 import { HowFaithWorks } from "./HowFaithWorks";
 
 // Total frames: 5 × 192 - 4 × 15 = 900
@@ -17,3 +17,5 @@ export const RemotionRoot: React.FC = () => (
     />
   </>
 );
+
+registerRoot(RemotionRoot);
