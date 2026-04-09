@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tradingview": {
+      "command": "/opt/node22/bin/node",
+      "args": ["/root/tradingview-mcp/src/server.js"],
+      "env": {
+        "PATH": "/opt/node22/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+      }
+    }
+  }
+}
